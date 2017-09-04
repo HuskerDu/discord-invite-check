@@ -2,7 +2,7 @@ from selenium import webdriver
 import time
 import link
 
-check = webdriver.Chrome('/usr/bin/chromedriver')
+check = webdriver.Chrome('<link to chromedriver>')
 
 
 def check_invite(b):
